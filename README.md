@@ -1,13 +1,14 @@
 Provides a template for Tufte-style handouts modeled on the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) project.
-The key feature of this template is the `#margin_note` function whichs renders content in the left margin area.
+The key feature of this template is the `margin_note` function whichs renders content in the left margin area.
 
-Preview (portrait):
+## Preview
+### Portrait
 ![portrait preview](images/preview_portrait.png)
 
-Preview (landscape):
+### Landscape
 ![lanscape preview](images/preview_landscape.png)
 
-Usage:
+## Usage
 * No images or other assets required, just grab the `tufte-handout.typ` file
 * The template will attempt to use the "TeX Gyre Pagella" font if installed but the default font looks pretty good as well.
 
