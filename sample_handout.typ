@@ -1,14 +1,14 @@
-#import "tufte-handout.typ": tufte_handout, margin_note
+#import "tufte-handout.typ": template, margin-note
 //#set page(flipped: true)
 
-#show: doc => tufte_handout(title: "A sample handout", doc)
+#show: doc => template(title: "A sample handout", doc)
 
 = Part 1
 
 #lorem(20)
-#margin_note[#lorem(10)]
+#margin-note[#lorem(10)]
 #lorem(30)
-#margin_note(
+#margin-note(
 
     figure(caption: "important diagram",
     {
@@ -41,7 +41,7 @@
 == Part 2.1
 
 #lorem(20)
-#margin_note([The student should be able to do this easily!])
+#margin-note([The student should be able to do this easily!])
 #lorem(20)
 
 == Part 2.2
