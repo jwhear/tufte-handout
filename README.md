@@ -1,5 +1,5 @@
 Provides a template for Tufte-style handouts modeled on the [Tufte-LaTeX](https://github.com/Tufte-LaTeX/tufte-latex) project.
-The key feature of this template is the `margin-note` function whichs renders content in the left margin area.
+The key feature of this template is the `margin-note` function whichs renders content in the right margin area.
 
 ## Preview
 ### Portrait
