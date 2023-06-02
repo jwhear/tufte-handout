@@ -13,7 +13,8 @@ The key feature of this template is the `margin-note` function whichs renders co
 * The template will attempt to use the "TeX Gyre Pagella" font if installed but the default font looks pretty good as well.
 
 ```typst
-#import "handout.typ": template, margin-note
+// Assumes you've cloned tufte-handout in this directory
+#import "tufte-handout/tufte-handout.typ": template, margin-note
 #show: doc => template(title: "A sample handout", doc)
 
 = Part 1
