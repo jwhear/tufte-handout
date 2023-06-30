@@ -1,0 +1,8 @@
+[package]
+name = "tufte-handout"
+version = "0.1.0"
+entrypoint = "tufte-handout.typ"
+authors = ["Justin Whear"]
+license = "MIT-0"
+description = "Provides a template for Tufte-style handouts modeled on the Tufte-LaTeX project. The key feature of this template is the `margin-note` function whichs renders content in the right margin area."
+repository = "https://github.com/jwhear/tufte-handout"
